@@ -1,0 +1,4 @@
+.history/
+build-app-guide/
+.env
+node_modules/
