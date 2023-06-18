@@ -159,8 +159,10 @@ Required dependencies is as follow:
 
 16. Edit _"scripts"_, _"author"_, and _"license"_ to look similar to the following:
     ![a sample screenshot of the package.json](build-app-guide/assets/sample_package-json.png)
+    <br>
     <sub><strong><em>☆ Lets test the code to make sure it's running properly</strong></em></sub>
 17. Go to your ***src/*** folder and open **app.js**
+    <br>
     <sub><strong><em>Type the following into app.js and SAVE</em></strong></sub>
     ```javascript
     const inform = console.log;
@@ -170,11 +172,14 @@ Required dependencies is as follow:
     // Be sure to save your work!
     ```
 18. Open your terminal and navigate to the directory of this app
+    <br>
     <sub><strong><em>Run the following command in the terminal</em></strong></sub>
     ```sh
     npm run dev
     ```
+    <br>
     <sub><strong><em>It should look something similar to the following:</em></strong></sub>
+    <br>
     ![a screenshot npm run dev result](build-app-guide/assets/run-dev-test.png)
     ```sh
     # press ^C [ctrl + c] to exit
@@ -190,8 +195,15 @@ Following a structure inside a project gives a clear idea how the application is
     touch .gitignore
     ```
 20. insert a list including `.history/`, `node_modules/`, and `.env` in the ***.gitignore*** file
-   <sub><strong><em>It should look something similar to the following:</em></strong></sub>
+<br>
+   ***<sub>It should look something similar to the following:</sub>***
+
+   <br>
+
    ![a sample of .gitignore file](build-app-guide/assets/sample-of-gitignore.png)
+   
+   <br>
+
 ***SAVE*** your work!
 
 ### Create Github Repository
