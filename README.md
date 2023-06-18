@@ -194,17 +194,11 @@ Following a structure inside a project gives a clear idea how the application is
     git init
     touch .gitignore
     ```
-20. insert a list including `.history/`, `node_modules/`, and `.env` in the ***.gitignore*** file
-<br>
-   ***<sub>It should look something similar to the following:</sub>***
-
-   <br>
-
+20. insert a list including `.history/`, `node_modules/`, and `.env` in the ***.gitignore*** file. It should look something similar to the following:
    ![a sample of .gitignore file](build-app-guide/assets/sample-of-gitignore.png)
-   
    <br>
-
-***SAVE*** your work!
+   
+   ***SAVE*** your work!
 
 ### Create Github Repository
 
@@ -279,7 +273,7 @@ In this part, we are going to create a User Model and also we will add mongoose 
    <sub><em>create a <strong>config.js</strong> file in the <strong>./src/constants/</strong> directory.</em></sub>
 
    ```sh
-      touch src/constants/index.js
+      touch src/constants/config.js
    ```
    <sub>proceed to click open the <em>./src/constants/ <strong>config.js</strong></em> file & add the following:</sub>
    ```javascript
@@ -290,7 +284,7 @@ In this part, we are going to create a User Model and also we will add mongoose 
       //export constant 1-by-1 from .env
       //gives access to the variables inside of process object
       export const DB = process.env.APP_DB;
-      export SECRET = process.env.APP_SECRET;
+      export const SECRET = process.env.APP_SECRET;
       export const DOMAIN = process.env.APP_DOMAIN;
       export const SENDGRID_API = process.env.APP_SENDGRID_API;
       export const PORT = process.env.PORT || process.env.APP_PORT;
