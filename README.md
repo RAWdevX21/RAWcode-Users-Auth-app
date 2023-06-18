@@ -51,23 +51,23 @@ In this part, we are going to set-up create a simple node express application fr
    <sub><strong>You will be prompted the following:</strong></sub>
    <br><br>
    package name: (auth-app) <code>| hit <strong>enter</strong></code><br>
-   <img src="./assets/1_package-name.png" alt="sample image of npm init prompt package-name" /><br>
+   <img src="build-app-guide/assets/1_package-name.png" alt="sample image of npm init prompt package-name" /><br>
    version: (1.0.0)  <code>| hit <strong>enter</strong></code><br>
-   <img src="./assets/2_version.png" alt="sample image of npm init prompt version" /><br>
+   <img src="build-app-guide/assets/2_version.png" alt="sample image of npm init prompt version" /><br>
    description:  <code>| type <strong>Complete user authentication, verify, reset password engine</strong></code><br>
-   <img src="./assets/3_description.png" alt="sample image of npm init prompt description" /><br>
+   <img src="build-app-guide/assets/3_description.png" alt="sample image of npm init prompt description" /><br>
    entry-point: (index.js) <code>| type <strong>src/app.js</strong></code><br>
-   <img src="./assets/4_entry-point.png" alt="sample image of npm init prompt entry-point" /><br>
+   <img src="build-app-guide/assets/4_entry-point.png" alt="sample image of npm init prompt entry-point" /><br>
    test command: <code>| hit <strong>enter</strong></code><br>
-   <img src="./assets/5_test-command.png" alt="sample image of npm init prompt test-command" /><br>
+   <img src="build-app-guide/assets/5_test-command.png" alt="sample image of npm init prompt test-command" /><br>
    git-repository: <code>| hit <strong>enter</strong></code><br>
-   <img src="./assets/6_git-repo.png" alt="sample image of npm init prompt git-repo" /><br>
+   <img src="build-app-guide/assets/6_git-repo.png" alt="sample image of npm init prompt git-repo" /><br>
    keywords: <code>| hit <strong>enter</strong></code><br>
-   <img src="./assets/7_keywords.png" alt="sample image of npm init prompt keywords" /><br>
+   <img src="build-app-guide/assets/7_keywords.png" alt="sample image of npm init prompt keywords" /><br>
    author: <code>| type <strong>< your-name></strong></code><br>
-   <img src="./assets/8_author.png" alt="sample image of npm init prompt author" /><br> 
+   <img src="build-app-guide/assets/8_author.png" alt="sample image of npm init prompt author" /><br> 
    license:<code>| type <strong>MIT</strong></code><br>
-   <img src="./assets/9_license.png" alt="sample image of npm init prompt license" /><br>
+   <img src="build-app-guide/assets/9_license.png" alt="sample image of npm init prompt license" /><br>
     Is this OK? (yes) <code>| hit <strong>enter</strong> or type <strong>y</strong></code><br>
 
    </blockquote>
@@ -158,7 +158,7 @@ Required dependencies is as follow:
    </sup>
 
 16. Edit _"scripts"_, _"author"_, and _"license"_ to look similar to the following:
-    ![a sample screenshot of the package.json](./assets/sample_package-json.png)
+    ![a sample screenshot of the package.json](build-app-guide/assets/sample_package-json.png)
     <sub><strong><em>☆ Lets test the code to make sure it's running properly</strong></em></sub>
 17. Go to your ***src/*** folder and open **app.js**
     <sub><strong><em>Type the following into app.js and SAVE</em></strong></sub>
@@ -175,7 +175,7 @@ Required dependencies is as follow:
     npm run dev
     ```
     <sub><strong><em>It should look something similar to the following:</em></strong></sub>
-    ![a screenshot npm run dev result](./assets/run-dev-test.png)
+    ![a screenshot npm run dev result](build-app-guide/assets/run-dev-test.png)
     ```sh
     # press ^C [ctrl + c] to exit
     ```
@@ -191,7 +191,7 @@ Following a structure inside a project gives a clear idea how the application is
     ```
 20. insert a list including `.history/`, `node_modules/`, and `.env` in the ***.gitignore*** file
    <sub><strong><em>It should look something similar to the following:</em></strong></sub>
-   ![a sample of .gitignore file](./assets/sample-of-gitignore.png)
+   ![a sample of .gitignore file](build-app-guide/assets/sample-of-gitignore.png)
 ***SAVE*** your work!
 
 ### Create Github Repository
@@ -318,7 +318,7 @@ In this part, we are going to create a User Model and also we will add mongoose 
 
    runApp();
    ```
-   ![preview of database and server connected](./assets/preview_servr-and-db-connected.png)
+   ![preview of database and server connected](build-app-guide/assets/preview_servr-and-db-connected.png)
    <br>
 
 5. Apply application ***`middlewares`***
